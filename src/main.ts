@@ -28,11 +28,11 @@ function renderCards(games: Game[]): void {
   grid.innerHTML = games.map(gameCard).join('')
 }
 
-function updateCounter(_count: number): void {
+function updateCounter(count: number): void {
   const el = document.querySelector<HTMLSpanElement>('#count')!
   // TODO: mostrar el número de juegos en el elemento #count.
   // Asigná el valor a el.textContent como string.
-  el.textContent = ''
+  el.textContent = count.toString()
 }
 
 function getGenres(): string[] {
