@@ -30,9 +30,10 @@ A platformer is a genre where the player controls a character jumping and climbi
 
 ## Puzzle
 
-<!-- Agregar descripción del género y link a Wikipedia -->
+In Tetris, falling pieces consisting of four connected blocks, known as tetrominoes, must be sorted into a pile. Once a horizontal line of the playfield is filled with blocks, the line disappears, granting points and preventing the pile from reaching the top.
+[Wikipedia](https://en.wikipedia.org/wiki/Tetris)
 
-- Tetris
+- [Tetris](./puzzle/tetris.md)
 
 ## Sandbox
 
